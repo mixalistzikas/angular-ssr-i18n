@@ -4,11 +4,11 @@
     "el": true
   },
   "client": {
-    "command": "ng build ssri18n --prod --build-optimizer",
+    "command": "ng run ssri18n:build:production",
     "output": "browser"
   },
   "server": {
-    "command": "ng build ssri18nserver --aot",
+    "command": "ng run ssri18n:server:production",
     "output": "server"
   }
 }
