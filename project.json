@@ -1,0 +1,14 @@
+{
+  "locales": {
+    "en": true,
+    "el": true
+  },
+  "client": {
+    "command": "ng build ssri18n --prod --build-optimizer",
+    "output": "browser"
+  },
+  "server": {
+    "command": "ng build ssri18nserver --aot",
+    "output": "server"
+  }
+}
