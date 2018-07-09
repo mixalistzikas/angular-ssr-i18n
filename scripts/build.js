@@ -9,7 +9,7 @@ const baseCommand = args.server === 'true' ? project.server.command : project.cl
 const folder = args.server === 'true' ? project.server.output : project.client.output;
 
 function buildCommand(command, locale, output, needFile) {
-  command += ` --output-path dist/${output}/${locale.toLowerCase()} --deploy-url /${locale.toLowerCase()}/ --base-href /${locale.toLowerCase()}/ --i18n-locale=${locale}`;
+  command += ` --output-path dist/${output}/${locale.toLowerCase()} --i18n-locale=${locale}`;
   if (needFile) {
     command += ` --i18n-file=src/i18n/messages.${locale.toLowerCase()}.xlf --i18n-format=xlf`;
   }
