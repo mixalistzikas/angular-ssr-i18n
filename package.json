@@ -30,6 +30,7 @@
       "@nguniversal/express-engine": "^6.0.0",
       "@nguniversal/module-map-ngfactory-loader": "^6.0.0",
       "core-js": "^2.5.4",
+      "ngx-dropzone-wrapper": "^6.1.0",
       "rxjs": "^6.0.0",
       "ts-loader": "^4.4.2",
       "zone.js": "^0.8.26"

@@ -1,6 +1,6 @@
 const path = require('path');
 const project = require(path.join(process.cwd(), 'project.json'));
-var nodeExternals = require('webpack-node-externals');
+const nodeExternals = require('webpack-node-externals');
 const webpack = require('webpack');
 
 const locales = Object.keys(project.locales);
